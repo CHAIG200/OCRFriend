@@ -13,6 +13,7 @@
     "ng-ocr": "^1.6.1",
     "node-tesseract": "^0.2.7",
     "node-tesseract-ocr": "^0.1.0",
+    "request": "^2.88.0",
     "tesseract.js": "^2.0.0-alpha.10"
   }
 }
