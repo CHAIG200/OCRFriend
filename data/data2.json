@@ -1,0 +1,1596 @@
+{
+ "text": [
+          {
+            "top": "48",
+            "left": "117",
+            "width": "27",
+            "height": "8",
+            "font": "0",
+            "text": "Internal"
+          },
+          {
+            "top": "48",
+            "left": "155",
+            "width": "36",
+            "height": "8",
+            "font": "0",
+            "text": "Executfon"
+          },
+          {
+            "top": "48",
+            "left": "203",
+            "width": "37",
+            "height": "8",
+            "font": "0",
+            "text": "Document"
+          },
+          {
+            "top": "103",
+            "left": "123",
+            "width": "28",
+            "height": "9",
+            "font": "1",
+            "text": "Project"
+          },
+          {
+            "top": "103",
+            "left": "165",
+            "width": "24",
+            "height": "9",
+            "font": "1",
+            "text": "Name"
+          },
+          {
+            "top": "141",
+            "left": "123",
+            "width": "28",
+            "height": "9",
+            "font": "1",
+            "text": "Project"
+          },
+          {
+            "top": "141",
+            "left": "165",
+            "width": "46",
+            "height": "9",
+            "font": "1",
+            "text": "Description"
+          },
+          {
+            "top": "204",
+            "left": "122",
+            "width": "53",
+            "height": "9",
+            "font": "2",
+            "text": "Sustainable"
+          },
+          {
+            "top": "204",
+            "left": "191",
+            "width": "74",
+            "height": "9",
+            "font": "2",
+            "text": "product/service?"
+          },
+          {
+            "top": "236",
+            "left": "123",
+            "width": "86",
+            "height": "9",
+            "font": "2",
+            "text": "Finance Approver"
+          },
+          {
+            "top": "572",
+            "left": "122",
+            "width": "43",
+            "height": "9",
+            "font": "2",
+            "text": "Projected"
+          },
+          {
+            "top": "572",
+            "left": "179",
+            "width": "44",
+            "height": "9",
+            "font": "2",
+            "text": "Marketing"
+          },
+          {
+            "top": "572",
+            "left": "239",
+            "width": "41",
+            "height": "9",
+            "font": "2",
+            "text": "Revenue"
+          },
+          {
+            "top": "602",
+            "left": "122",
+            "width": "49",
+            "height": "9",
+            "font": "2",
+            "text": "Commltted"
+          },
+          {
+            "top": "602",
+            "left": "188",
+            "width": "29",
+            "height": "9",
+            "font": "2",
+            "text": "Spend"
+          },
+          {
+            "top": "633",
+            "left": "122",
+            "width": "43",
+            "height": "9",
+            "font": "2",
+            "text": "Projected"
+          },
+          {
+            "top": "633",
+            "left": "178",
+            "width": "36",
+            "height": "9",
+            "font": "2",
+            "text": "Savings"
+          },
+          {
+            "top": "663",
+            "left": "122",
+            "width": "36",
+            "height": "8",
+            "font": "0",
+            "text": "Additional"
+          },
+          {
+            "top": "663",
+            "left": "182",
+            "width": "32",
+            "height": "8",
+            "font": "0",
+            "text": "Financial"
+          },
+          {
+            "top": "663",
+            "left": "234",
+            "width": "23",
+            "height": "8",
+            "font": "0",
+            "text": "Terms"
+          },
+          {
+            "top": "695",
+            "left": "122",
+            "width": "36",
+            "height": "8",
+            "font": "0",
+            "text": "Additional"
+          },
+          {
+            "top": "695",
+            "left": "182",
+            "width": "33",
+            "height": "8",
+            "font": "0",
+            "text": "Business"
+          },
+          {
+            "top": "695",
+            "left": "234",
+            "width": "23",
+            "height": "8",
+            "font": "0",
+            "text": "Terms"
+          },
+          {
+            "top": "725",
+            "left": "123",
+            "width": "31",
+            "height": "8",
+            "font": "0",
+            "text": "Effective"
+          },
+          {
+            "top": "725",
+            "left": "174",
+            "width": "17",
+            "height": "8",
+            "font": "0",
+            "text": "Date"
+          },
+          {
+            "top": "755",
+            "left": "123",
+            "width": "102",
+            "height": "9",
+            "font": "2",
+            "text": "Legal Representative"
+          },
+          {
+            "top": "786",
+            "left": "123",
+            "width": "61",
+            "height": "9",
+            "font": "2",
+            "text": "LegaE Action"
+          },
+          {
+            "top": "786",
+            "left": "194",
+            "width": "28",
+            "height": "9",
+            "font": "2",
+            "text": "Taken"
+          },
+          {
+            "top": "835",
+            "left": "124",
+            "width": "42",
+            "height": "9",
+            "font": "2",
+            "text": "Workflow"
+          },
+          {
+            "top": "835",
+            "left": "180",
+            "width": "45",
+            "height": "9",
+            "font": "2",
+            "text": "Approvals"
+          },
+          {
+            "top": "866",
+            "left": "122",
+            "width": "28",
+            "height": "9",
+            "font": "2",
+            "text": "I legal"
+          },
+          {
+            "top": "100",
+            "left": "314",
+            "width": "27",
+            "height": "9",
+            "font": "1",
+            "text": "A.V.M."
+          },
+          {
+            "top": "100",
+            "left": "354",
+            "width": "49",
+            "height": "9",
+            "font": "1",
+            "text": "Enterprises,"
+          },
+          {
+            "top": "100",
+            "left": "425",
+            "width": "49",
+            "height": "9",
+            "font": "1",
+            "text": "Inc. _ MSA"
+          },
+          {
+            "top": "113",
+            "left": "314",
+            "width": "32",
+            "height": "8",
+            "font": "0",
+            "text": "Renewal"
+          },
+          {
+            "top": "138",
+            "left": "314",
+            "width": "25",
+            "height": "8",
+            "font": "0",
+            "text": "Renew"
+          },
+          {
+            "top": "138",
+            "left": "354",
+            "width": "11",
+            "height": "8",
+            "font": "0",
+            "text": "the"
+          },
+          {
+            "top": "138",
+            "left": "377",
+            "width": "22",
+            "height": "8",
+            "font": "0",
+            "text": "OS&E"
+          },
+          {
+            "top": "138",
+            "left": "412",
+            "width": "44",
+            "height": "8",
+            "font": "0",
+            "text": "dEstr*butlon"
+          },
+          {
+            "top": "152",
+            "left": "314",
+            "width": "48",
+            "height": "9",
+            "font": "2",
+            "text": "agreement"
+          },
+          {
+            "top": "152",
+            "left": "378",
+            "width": "74",
+            "height": "9",
+            "font": "2",
+            "text": "for 18 months."
+          },
+          {
+            "top": "152",
+            "left": "470",
+            "width": "38",
+            "height": "9",
+            "font": "2",
+            "text": "Remove"
+          },
+          {
+            "top": "166",
+            "left": "314",
+            "width": "70",
+            "height": "9",
+            "font": "2",
+            "text": "GPO language"
+          },
+          {
+            "top": "166",
+            "left": "397",
+            "width": "31",
+            "height": "9",
+            "font": "2",
+            "text": "update"
+          },
+          {
+            "top": "166",
+            "left": "440",
+            "width": "44",
+            "height": "9",
+            "font": "2",
+            "text": "marketlng"
+          },
+          {
+            "top": "166",
+            "left": "501",
+            "width": "17",
+            "height": "9",
+            "font": "2",
+            "text": "and"
+          },
+          {
+            "top": "179",
+            "left": "314",
+            "width": "40",
+            "height": "9",
+            "font": "2",
+            "text": "reporting"
+          },
+          {
+            "top": "179",
+            "left": "369",
+            "width": "44",
+            "height": "9",
+            "font": "2",
+            "text": "language."
+          },
+          {
+            "top": "202",
+            "left": "314",
+            "width": "9",
+            "height": "7",
+            "font": "3",
+            "text": "No"
+          },
+          {
+            "top": "232",
+            "left": "314",
+            "width": "47",
+            "height": "9",
+            "font": "1",
+            "text": "McDermott,"
+          },
+          {
+            "top": "232",
+            "left": "384",
+            "width": "36",
+            "height": "9",
+            "font": "1",
+            "text": "Terrance"
+          },
+          {
+            "top": "103",
+            "left": "538",
+            "width": "45",
+            "height": "8",
+            "font": "0",
+            "text": "Attachments"
+          },
+          {
+            "top": "141",
+            "left": "538",
+            "width": "37",
+            "height": "9",
+            "font": "2",
+            "text": "Supplier"
+          },
+          {
+            "top": "141",
+            "left": "588",
+            "width": "27",
+            "height": "9",
+            "font": "2",
+            "text": "Name"
+          },
+          {
+            "top": "205",
+            "left": "539",
+            "width": "34",
+            "height": "9",
+            "font": "2",
+            "text": "Diverse"
+          },
+          {
+            "top": "205",
+            "left": "584",
+            "width": "43",
+            "height": "9",
+            "font": "2",
+            "text": "Supplier?"
+          },
+          {
+            "top": "236",
+            "left": "539",
+            "width": "29",
+            "height": "8",
+            "font": "0",
+            "text": "Finance"
+          },
+          {
+            "top": "236",
+            "left": "585",
+            "width": "39",
+            "height": "8",
+            "font": "0",
+            "text": "Comments"
+          },
+          {
+            "top": "572",
+            "left": "567",
+            "width": "27",
+            "height": "8",
+            "font": "0",
+            "text": "Results"
+          },
+          {
+            "top": "602",
+            "left": "539",
+            "width": "43",
+            "height": "9",
+            "font": "2",
+            "text": "Projected"
+          },
+          {
+            "top": "602",
+            "left": "594",
+            "width": "32",
+            "height": "9",
+            "font": "2",
+            "text": "Annual"
+          },
+          {
+            "top": "602",
+            "left": "637",
+            "width": "29",
+            "height": "9",
+            "font": "2",
+            "text": "Spend"
+          },
+          {
+            "top": "634",
+            "left": "539",
+            "width": "43",
+            "height": "9",
+            "font": "2",
+            "text": "Projected"
+          },
+          {
+            "top": "634",
+            "left": "595",
+            "width": "41",
+            "height": "9",
+            "font": "2",
+            "text": "Revenue"
+          },
+          {
+            "top": "664",
+            "left": "539",
+            "width": "52",
+            "height": "9",
+            "font": "2",
+            "text": "Geographlc"
+          },
+          {
+            "top": "664",
+            "left": "606",
+            "width": "29",
+            "height": "9",
+            "font": "2",
+            "text": "Scope"
+          },
+          {
+            "top": "695",
+            "left": "538",
+            "width": "44",
+            "height": "9",
+            "font": "2",
+            "text": "Additlonal"
+          },
+          {
+            "top": "695",
+            "left": "599",
+            "width": "61",
+            "height": "9",
+            "font": "2",
+            "text": "Legaf Terms"
+          },
+          {
+            "top": "725",
+            "left": "539",
+            "width": "34",
+            "height": "9",
+            "font": "1",
+            "text": "Contract"
+          },
+          {
+            "top": "725",
+            "left": "591",
+            "width": "40",
+            "height": "9",
+            "font": "1",
+            "text": "Expiration"
+          },
+          {
+            "top": "725",
+            "left": "651",
+            "width": "19",
+            "height": "9",
+            "font": "1",
+            "text": "Date"
+          },
+          {
+            "top": "10",
+            "left": "808",
+            "width": "84",
+            "height": "14",
+            "font": "4",
+            "text": "Page 1 of 2"
+          },
+          {
+            "top": "74",
+            "left": "767",
+            "width": "101",
+            "height": "11",
+            "font": "5",
+            "text": "Print Cover Page"
+          },
+          {
+            "top": "101",
+            "left": "710",
+            "width": "20",
+            "height": "9",
+            "font": "1",
+            "text": "AVM"
+          },
+          {
+            "top": "101",
+            "left": "743",
+            "width": "20",
+            "height": "9",
+            "font": "1",
+            "text": "MSA"
+          },
+          {
+            "top": "101",
+            "left": "775",
+            "width": "35",
+            "height": "9",
+            "font": "1",
+            "text": "Renewal"
+          },
+          {
+            "top": "101",
+            "left": "831",
+            "width": "23",
+            "height": "9",
+            "font": "1",
+            "text": "Client"
+          },
+          {
+            "top": "115",
+            "left": "710",
+            "width": "62",
+            "height": "10",
+            "font": "6",
+            "text": "signed. pdf"
+          },
+          {
+            "top": "138",
+            "left": "711",
+            "width": "59",
+            "height": "9",
+            "font": "2",
+            "text": "Biju Daniels"
+          },
+          {
+            "top": "202",
+            "left": "710",
+            "width": "14",
+            "height": "8",
+            "font": "0",
+            "text": "Yes"
+          },
+          {
+            "top": "232",
+            "left": "711",
+            "width": "58",
+            "height": "9",
+            "font": "2",
+            "text": "D&B Report"
+          },
+          {
+            "top": "232",
+            "left": "780",
+            "width": "41",
+            "height": "9",
+            "font": "2",
+            "text": "reviewed"
+          },
+          {
+            "top": "232",
+            "left": "834",
+            "width": "11",
+            "height": "9",
+            "font": "2",
+            "text": "by"
+          },
+          {
+            "top": "247",
+            "left": "710",
+            "width": "28",
+            "height": "7",
+            "font": "3",
+            "text": "Terrance"
+          },
+          {
+            "top": "247",
+            "left": "764",
+            "width": "35",
+            "height": "7",
+            "font": "3",
+            "text": "McDermott"
+          },
+          {
+            "top": "247",
+            "left": "828",
+            "width": "8",
+            "height": "7",
+            "font": "3",
+            "text": "on"
+          },
+          {
+            "top": "259",
+            "left": "711",
+            "width": "56",
+            "height": "9",
+            "font": "2",
+            "text": "02/25/2016.."
+          },
+          {
+            "top": "259",
+            "left": "789",
+            "width": "34",
+            "height": "9",
+            "font": "2",
+            "text": "Results"
+          },
+          {
+            "top": "259",
+            "left": "833",
+            "width": "15",
+            "height": "9",
+            "font": "2",
+            "text": "are"
+          },
+          {
+            "top": "273",
+            "left": "711",
+            "width": "71",
+            "height": "9",
+            "font": "2",
+            "text": "below average"
+          },
+          {
+            "top": "273",
+            "left": "795",
+            "width": "24",
+            "height": "9",
+            "font": "2",
+            "text": "in all"
+          },
+          {
+            "top": "286",
+            "left": "710",
+            "width": "50",
+            "height": "9",
+            "font": "2",
+            "text": "categories."
+          },
+          {
+            "top": "286",
+            "left": "780",
+            "width": "76",
+            "height": "9",
+            "font": "2",
+            "text": "It appeærs that"
+          },
+          {
+            "top": "301",
+            "left": "710",
+            "width": "19",
+            "height": "9",
+            "font": "2",
+            "text": "they"
+          },
+          {
+            "top": "301",
+            "left": "739",
+            "width": "30",
+            "height": "9",
+            "font": "2",
+            "text": "paying"
+          },
+          {
+            "top": "301",
+            "left": "780",
+            "width": "36",
+            "height": "9",
+            "font": "2",
+            "text": "vendors"
+          },
+          {
+            "top": "301",
+            "left": "827",
+            "width": "19",
+            "height": "9",
+            "font": "2",
+            "text": "very"
+          },
+          {
+            "top": "314",
+            "left": "710",
+            "width": "30",
+            "height": "9",
+            "font": "2",
+            "text": "slowly,"
+          },
+          {
+            "top": "314",
+            "left": "753",
+            "width": "121",
+            "height": "9",
+            "font": "2",
+            "text": "which can be a sign of"
+          },
+          {
+            "top": "328",
+            "left": "710",
+            "width": "30",
+            "height": "8",
+            "font": "0",
+            "text": "financial"
+          },
+          {
+            "top": "328",
+            "left": "761",
+            "width": "38",
+            "height": "8",
+            "font": "0",
+            "text": "weakness."
+          },
+          {
+            "top": "328",
+            "left": "825",
+            "width": "9",
+            "height": "8",
+            "font": "0",
+            "text": "To"
+          },
+          {
+            "top": "328",
+            "left": "844",
+            "width": "20",
+            "height": "8",
+            "font": "0",
+            "text": "move"
+          },
+          {
+            "top": "341",
+            "left": "710",
+            "width": "37",
+            "height": "9",
+            "font": "2",
+            "text": "forward,"
+          },
+          {
+            "top": "341",
+            "left": "761",
+            "width": "50",
+            "height": "9",
+            "font": "2",
+            "text": "we should"
+          },
+          {
+            "top": "341",
+            "left": "821",
+            "width": "34",
+            "height": "9",
+            "font": "2",
+            "text": "request"
+          },
+          {
+            "top": "356",
+            "left": "710",
+            "width": "106",
+            "height": "9",
+            "font": "2",
+            "text": "two years of audited"
+          },
+          {
+            "top": "356",
+            "left": "828",
+            "width": "37",
+            "height": "9",
+            "font": "2",
+            "text": "financial"
+          },
+          {
+            "top": "370",
+            "left": "710",
+            "width": "40",
+            "height": "8",
+            "font": "0",
+            "text": "statements"
+          },
+          {
+            "top": "370",
+            "left": "776",
+            "width": "7",
+            "height": "8",
+            "font": "0",
+            "text": "to"
+          },
+          {
+            "top": "370",
+            "left": "792",
+            "width": "20",
+            "height": "8",
+            "font": "0",
+            "text": "make"
+          },
+          {
+            "top": "370",
+            "left": "826",
+            "width": "16",
+            "height": "8",
+            "font": "0",
+            "text": "sure"
+          },
+          {
+            "top": "370",
+            "left": "853",
+            "width": "11",
+            "height": "8",
+            "font": "0",
+            "text": "the"
+          },
+          {
+            "top": "383",
+            "left": "710",
+            "width": "41",
+            "height": "9",
+            "font": "2",
+            "text": "company"
+          },
+          {
+            "top": "383",
+            "left": "765",
+            "width": "57",
+            "height": "9",
+            "font": "2",
+            "text": "is financially"
+          },
+          {
+            "top": "397",
+            "left": "710",
+            "width": "28",
+            "height": "8",
+            "font": "0",
+            "text": "solvent."
+          },
+          {
+            "top": "424",
+            "left": "711",
+            "width": "118",
+            "height": "9",
+            "font": "2",
+            "text": "Based on past hkstory,"
+          },
+          {
+            "top": "424",
+            "left": "838",
+            "width": "34",
+            "height": "9",
+            "font": "2",
+            "text": "we will"
+          },
+          {
+            "top": "437",
+            "left": "711",
+            "width": "70",
+            "height": "9",
+            "font": "2",
+            "text": "move forward,"
+          },
+          {
+            "top": "437",
+            "left": "795",
+            "width": "56",
+            "height": "9",
+            "font": "2",
+            "text": "but request"
+          },
+          {
+            "top": "451",
+            "left": "710",
+            "width": "13",
+            "height": "8",
+            "font": "0",
+            "text": "that"
+          },
+          {
+            "top": "451",
+            "left": "736",
+            "width": "18",
+            "height": "8",
+            "font": "0",
+            "text": "AVM"
+          },
+          {
+            "top": "451",
+            "left": "765",
+            "width": "18",
+            "height": "8",
+            "font": "0",
+            "text": "send"
+          },
+          {
+            "top": "451",
+            "left": "795",
+            "width": "45",
+            "height": "8",
+            "font": "0",
+            "text": "us financlal"
+          },
+          {
+            "top": "465",
+            "left": "710",
+            "width": "40",
+            "height": "8",
+            "font": "0",
+            "text": "statements"
+          },
+          {
+            "top": "465",
+            "left": "776",
+            "width": "13",
+            "height": "8",
+            "font": "0",
+            "text": "that"
+          },
+          {
+            "top": "465",
+            "left": "803",
+            "width": "10",
+            "height": "8",
+            "font": "0",
+            "text": "we"
+          },
+          {
+            "top": "465",
+            "left": "821",
+            "width": "11",
+            "height": "8",
+            "font": "0",
+            "text": "will"
+          },
+          {
+            "top": "479",
+            "left": "711",
+            "width": "29",
+            "height": "9",
+            "font": "2",
+            "text": "review"
+          },
+          {
+            "top": "479",
+            "left": "752",
+            "width": "87",
+            "height": "9",
+            "font": "2",
+            "text": "and keep on file."
+          },
+          {
+            "top": "479",
+            "left": "852",
+            "width": "15",
+            "height": "9",
+            "font": "2",
+            "text": "We"
+          },
+          {
+            "top": "492",
+            "left": "710",
+            "width": "30",
+            "height": "9",
+            "font": "2",
+            "text": "should"
+          },
+          {
+            "top": "492",
+            "left": "752",
+            "width": "113",
+            "height": "9",
+            "font": "2",
+            "text": "also try to run a D&B"
+          },
+          {
+            "top": "506",
+            "left": "711",
+            "width": "31",
+            "height": "9",
+            "font": "2",
+            "text": "update"
+          },
+          {
+            "top": "506",
+            "left": "753",
+            "width": "25",
+            "height": "9",
+            "font": "2",
+            "text": "every"
+          },
+          {
+            "top": "506",
+            "left": "788",
+            "width": "56",
+            "height": "9",
+            "font": "2",
+            "text": "six months."
+          },
+          {
+            "top": "660",
+            "left": "711",
+            "width": "11",
+            "height": "8",
+            "font": "0",
+            "text": "US"
+          },
+          {
+            "top": "895",
+            "left": "691",
+            "width": "22",
+            "height": "8",
+            "font": "0",
+            "text": "Action"
+          },
+          {
+            "top": "895",
+            "left": "296",
+            "width": "22",
+            "height": "8",
+            "font": "0",
+            "text": "Action"
+          },
+          {
+            "top": "928",
+            "left": "276",
+            "width": "35",
+            "height": "8",
+            "font": "0",
+            "text": "Comment"
+          },
+          {
+            "top": "953",
+            "left": "122",
+            "width": "22",
+            "height": "9",
+            "font": "1",
+            "text": "2.VP,"
+          },
+          {
+            "top": "953",
+            "left": "155",
+            "width": "32",
+            "height": "9",
+            "font": "1",
+            "text": "Finance"
+          },
+          {
+            "top": "983",
+            "left": "295",
+            "width": "25",
+            "height": "9",
+            "font": "1",
+            "text": "Action"
+          },
+          {
+            "top": "1015",
+            "left": "276",
+            "width": "35",
+            "height": "8",
+            "font": "0",
+            "text": "Comment"
+          },
+          {
+            "top": "1041",
+            "left": "120",
+            "width": "25",
+            "height": "9",
+            "font": "2",
+            "text": "3.VPf"
+          },
+          {
+            "top": "1041",
+            "left": "155",
+            "width": "44",
+            "height": "9",
+            "font": "2",
+            "text": "Marketing"
+          },
+          {
+            "top": "1072",
+            "left": "296",
+            "width": "22",
+            "height": "8",
+            "font": "0",
+            "text": "Action"
+          },
+          {
+            "top": "1104",
+            "left": "276",
+            "width": "35",
+            "height": "8",
+            "font": "0",
+            "text": "Comment"
+          },
+          {
+            "top": "1130",
+            "left": "120",
+            "width": "86",
+            "height": "9",
+            "font": "2",
+            "text": "4.VP, Technology"
+          },
+          {
+            "top": "1161",
+            "left": "296",
+            "width": "22",
+            "height": "8",
+            "font": "0",
+            "text": "Action"
+          },
+          {
+            "top": "1193",
+            "left": "276",
+            "width": "31",
+            "height": "7",
+            "font": "3",
+            "text": "Comment"
+          },
+          {
+            "top": "866",
+            "left": "412",
+            "width": "24",
+            "height": "9",
+            "font": "2",
+            "text": "Levy,"
+          },
+          {
+            "top": "866",
+            "left": "447",
+            "width": "21",
+            "height": "9",
+            "font": "2",
+            "text": "Ruth"
+          },
+          {
+            "top": "889",
+            "left": "352",
+            "width": "40",
+            "height": "9",
+            "font": "1",
+            "text": "2/29/2016"
+          },
+          {
+            "top": "889",
+            "left": "473",
+            "width": "16",
+            "height": "9",
+            "font": "1",
+            "text": "PM:"
+          },
+          {
+            "top": "928",
+            "left": "352",
+            "width": "40",
+            "height": "9",
+            "font": "1",
+            "text": "2/29/2015"
+          },
+          {
+            "top": "928",
+            "left": "473",
+            "width": "16",
+            "height": "9",
+            "font": "1",
+            "text": "PM:"
+          },
+          {
+            "top": "953",
+            "left": "411",
+            "width": "26",
+            "height": "9",
+            "font": "1",
+            "text": "Smitht"
+          },
+          {
+            "top": "954",
+            "left": "452",
+            "width": "14",
+            "height": "8",
+            "font": "0",
+            "text": "Lori"
+          },
+          {
+            "top": "977",
+            "left": "352",
+            "width": "45",
+            "height": "9",
+            "font": "2",
+            "text": "2/29/2016"
+          },
+          {
+            "top": "977",
+            "left": "416",
+            "width": "39",
+            "height": "9",
+            "font": "2",
+            "text": "12:34:33"
+          },
+          {
+            "top": "977",
+            "left": "473",
+            "width": "18",
+            "height": "9",
+            "font": "2",
+            "text": "PM:"
+          },
+          {
+            "top": "1015",
+            "left": "352",
+            "width": "40",
+            "height": "9",
+            "font": "1",
+            "text": "2/29/2016"
+          },
+          {
+            "top": "1015",
+            "left": "416",
+            "width": "35",
+            "height": "9",
+            "font": "1",
+            "text": "12:34:33"
+          },
+          {
+            "top": "1015",
+            "left": "473",
+            "width": "16",
+            "height": "9",
+            "font": "1",
+            "text": "PM:"
+          },
+          {
+            "top": "1042",
+            "left": "402",
+            "width": "34",
+            "height": "9",
+            "font": "1",
+            "text": "Gattuso,"
+          },
+          {
+            "top": "1042",
+            "left": "453",
+            "width": "21",
+            "height": "9",
+            "font": "1",
+            "text": "Drew"
+          },
+          {
+            "top": "755",
+            "left": "539",
+            "width": "83",
+            "height": "9",
+            "font": "2",
+            "text": "Legal Comments"
+          },
+          {
+            "top": "786",
+            "left": "539",
+            "width": "23",
+            "height": "8",
+            "font": "0",
+            "text": "Notice"
+          },
+          {
+            "top": "786",
+            "left": "577",
+            "width": "30",
+            "height": "8",
+            "font": "0",
+            "text": "Address"
+          },
+          {
+            "top": "866",
+            "left": "565",
+            "width": "6",
+            "height": "7",
+            "font": "3",
+            "text": "6."
+          },
+          {
+            "top": "889",
+            "left": "496",
+            "width": "34",
+            "height": "9",
+            "font": "1",
+            "text": "Approve"
+          },
+          {
+            "top": "954",
+            "left": "565",
+            "width": "7",
+            "height": "8",
+            "font": "0",
+            "text": "7,"
+          },
+          {
+            "top": "978",
+            "left": "497",
+            "width": "34",
+            "height": "9",
+            "font": "1",
+            "text": "Approve"
+          },
+          {
+            "top": "1066",
+            "left": "352",
+            "width": "45",
+            "height": "9",
+            "font": "2",
+            "text": "2/29/2016"
+          },
+          {
+            "top": "1066",
+            "left": "416",
+            "width": "34",
+            "height": "9",
+            "font": "2",
+            "text": "2:03:29"
+          },
+          {
+            "top": "1066",
+            "left": "466",
+            "width": "62",
+            "height": "9",
+            "font": "2",
+            "text": "PM: Approve"
+          },
+          {
+            "top": "1066",
+            "left": "540",
+            "width": "10",
+            "height": "9",
+            "font": "2",
+            "text": "—"
+          },
+          {
+            "top": "1104",
+            "left": "352",
+            "width": "40",
+            "height": "9",
+            "font": "1",
+            "text": "2/29/2016"
+          },
+          {
+            "top": "1104",
+            "left": "466",
+            "width": "16",
+            "height": "9",
+            "font": "1",
+            "text": "PM:"
+          },
+          {
+            "top": "1104",
+            "left": "491",
+            "width": "3",
+            "height": "9",
+            "font": "1",
+            "text": "-"
+          },
+          {
+            "top": "1131",
+            "left": "402",
+            "width": "39",
+            "height": "9",
+            "font": "1",
+            "text": "Pallwoda,"
+          },
+          {
+            "top": "1131",
+            "left": "459",
+            "width": "18",
+            "height": "9",
+            "font": "1",
+            "text": "Rich"
+          },
+          {
+            "top": "1155",
+            "left": "352",
+            "width": "39",
+            "height": "9",
+            "font": "2",
+            "text": "3/1/2016"
+          },
+          {
+            "top": "1155",
+            "left": "410",
+            "width": "39",
+            "height": "9",
+            "font": "2",
+            "text": "11:16:05"
+          },
+          {
+            "top": "1155",
+            "left": "465",
+            "width": "64",
+            "height": "9",
+            "font": "2",
+            "text": "AM: Approve"
+          },
+          {
+            "top": "1155",
+            "left": "541",
+            "width": "3",
+            "height": "9",
+            "font": "2",
+            "text": "-"
+          },
+          {
+            "top": "1193",
+            "left": "352",
+            "width": "35",
+            "height": "9",
+            "font": "1",
+            "text": "3/1/2015"
+          },
+          {
+            "top": "1193",
+            "left": "465",
+            "width": "16",
+            "height": "9",
+            "font": "1",
+            "text": "AM:"
+          },
+          {
+            "top": "1042",
+            "left": "566",
+            "width": "7",
+            "height": "8",
+            "font": "0",
+            "text": "8."
+          },
+          {
+            "top": "1131",
+            "left": "565",
+            "width": "7",
+            "height": "8",
+            "font": "0",
+            "text": "9,"
+          },
+          {
+            "top": "928",
+            "left": "672",
+            "width": "35",
+            "height": "8",
+            "font": "0",
+            "text": "Comment"
+          },
+          {
+            "top": "984",
+            "left": "691",
+            "width": "22",
+            "height": "8",
+            "font": "0",
+            "text": "Action"
+          },
+          {
+            "top": "1017",
+            "left": "672",
+            "width": "31",
+            "height": "7",
+            "font": "3",
+            "text": "Comment"
+          },
+          {
+            "top": "1072",
+            "left": "691",
+            "width": "22",
+            "height": "8",
+            "font": "0",
+            "text": "Action"
+          },
+          {
+            "top": "1105",
+            "left": "672",
+            "width": "31",
+            "height": "7",
+            "font": "3",
+            "text": "Comment"
+          },
+          {
+            "top": "1161",
+            "left": "691",
+            "width": "22",
+            "height": "8",
+            "font": "0",
+            "text": "Action"
+          },
+          {
+            "top": "1193",
+            "left": "672",
+            "width": "35",
+            "height": "8",
+            "font": "0",
+            "text": "Comment"
+          },
+          {
+            "top": "1216",
+            "left": "98",
+            "width": "537",
+            "height": "15",
+            "font": "7",
+            "text": "https://wwcteamswn.com/dept/wyn/procure/projects/Lists/Strategic%20Proj"
+          }
+        ]
+  }
