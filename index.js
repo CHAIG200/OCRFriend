@@ -1,20 +1,28 @@
-
-const data = require('./data/data2.json');
 const templates = require('./templates.js');
-
+const Jimp = require('jimp');
 
 OCR("./data/Test.jpg",(function(data){
+    console.log("OCR Starting...")
     var json = data.ParsedResults;
-    var end = new Date().getTime();
-    var time = end - start;
-    var m1,m2,m3,m4;
-    var BreakException = {};
 
+    var m8,m4,m9,m7;
+    var fl = 5000, fr = 0;
 
+    /*
+    | Q0ZI |================================================================================================================================|
+    Section takes the json that is outputted by the api and parses it and looks for the markers and stores the location of specific keyword
+    | Q0ZI |================================================================================================================================|
+    */
     json[0].TextOverlay.Lines.forEach( element =>{
 
         element.Words.forEach(word =>{
-            if(m1 == undefined && m2 == undefined && m3 == undefined && m4 == undefined){
+            if(word.Left < fl){
+                fl = word.Left;
+            }
+            if(word.Left > fr){
+                fr = word.Left;
+            }
+            if(m8 == undefined && m4 == undefined && m9 == undefined && m7 == undefined){
                 if(templates.IED["Project Name"].found == false && word.WordText == "Project"){
                     templates.IED["Project Name"].found = true;
                     templates.IED["Project Name"].y = parseInt(word.Top) - 10;
@@ -55,34 +63,45 @@ OCR("./data/Test.jpg",(function(data){
 
     });
 
+    fl = fl - 30;
+    fr = fr + 30;
 
+    /*
+    | Q0ZI |==============================================================================================================================================|
+    Section Uses two markers to identify the locations of each section in the event one of the markers are not found via the OCR. Increasing the Accuracy
+    | Q0ZI |==============================================================================================================================================|
+    */
 
     if(templates.IED["Project Name"].found == true || templates.IED["Attachments"].found == true){
-        
-        m1 = templates.IED["Project Name"].found == true ? templates.IED["Project Name"].y : templates.IED["Attachments"].y;
-        console.log("Setting Position : "  + m1);
+        m8 = templates.IED["Project Name"].found == true ? templates.IED["Project Name"].y : templates.IED["Attachments"].y;
         if(templates.IED["Approver"].found == true || templates.IED["Comments"].found == true){
-            m2 = templates.IED["Approver"].found == true ? templates.IED["Approver"].y : templates.IED["Comments"].y;
-            console.log("Setting Position : "  + m2);
+            m4 = templates.IED["Approver"].found == true ? templates.IED["Approver"].y : templates.IED["Comments"].y;
             if(templates.IED["Projected"].found == true || templates.IED["D&B"].found == true){
-                m3 = templates.IED["Projected"].found == true ? templates.IED["Projected"].y : templates.IED["D&B"].y;
-                console.log("Setting Position : "  + m3);
+                m9 = templates.IED["Projected"].found == true ? templates.IED["Projected"].y : templates.IED["D&B"].y;
                 if(templates.IED["Workflow Approvals"].found == true){
-                    m4 = templates.IED["Workflow Approvals"].y;
-                    console.log("Setting Position : "  + m4);
+                    m7 = templates.IED["Workflow Approvals"].y;
                     console.log("============ Information ============")
                     console.log("All markers have been found.\nDocument Type: Internal Execution Document");
-                    console.log("First Marker Position: " + m1);
-                    console.log("Second Marker Position: " + m2);
-                    console.log("Third Marker Position: " + m3);
-                    console.log("Fourth Marker Position: " + m4);
+                    console.log("First Marker Position: " + m8);
+                    console.log("Second Marker Position: " + m4);
+                    console.log("Third Marker Position: " + m9);
+                    console.log("Fourth Marker Position: " + m7);
                     console.log("============ Information ============")
                 }
 
             }
         }
     }
-    console.log("Document Took " + (time / 1000) + " seconds to OCR And Split document.")
+    console.log("OCR Complete...")
+    console.log("Split Starting...")
+    seperate("./data/Test.jpg",[m8,m4,m9,m7,fl,fr],(function(end){
+        var time = end - start;
+        console.log("Document Took " + (time / 1000) + " seconds to OCR.");
+        console.log("Document Completed.");
+    }))
+
+    
+
 }));
 
 
@@ -107,3 +126,52 @@ function OCR(filename,callback){
 });
 
 }
+
+
+function seperate(file, locations,callback){
+    console.log(locations);
+    var minX = locations[4];
+    var width = locations[5] - locations[4];
+
+   var sections = 
+       [
+       {
+        id : 1,
+        beginY : locations[0],
+        height : locations[1] - locations[0]
+       },{
+        id : 2,
+        beginY : locations[1],
+        height : locations[2] - locations[1]
+       },{
+        id : 3,
+        beginY : locations[2],
+        height : locations[3] - locations[2]
+       },{
+        id : 4,
+        beginY : locations[3],
+        height : locations[3]
+       }
+    ]
+
+    sections.forEach(section =>{
+
+
+        Jimp.read(file, (err, img) => {
+            if (err) throw err;
+            var y  = section.beginY;
+            var height = section.height;
+           var newHeight = y > locations[2] ? img.bitmap.height - height : height;
+         
+                img.crop(minX, y,Math.round(width),newHeight).quality(100).invert().write('./test/' + idGenerator() + "/" + section.id + "-" + file.split('/')[2]);
+          });
+     
+    });
+    callback(new Date().getTime());
+}
+function idGenerator() {
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+      var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+      return v.toString(16);
+    });
+  }

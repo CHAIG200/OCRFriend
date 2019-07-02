@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "fs": "0.0.1-security",
+    "jimp": "^0.6.4",
     "ng-ocr": "^1.6.1",
     "node-tesseract": "^0.2.7",
     "node-tesseract-ocr": "^0.1.0",
