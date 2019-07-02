@@ -1,5 +1,5 @@
 
-const data = require('./data/data.json');
+const data = require('./data/data2.json');
 
 var titles = {
 "Project Name" : {
@@ -92,3 +92,26 @@ if(titles["Project Name"].found == true || titles["Attachments"].found == true){
         }
     }
 }
+
+
+function OCR(filename,callback){
+    var fs = require("fs");
+    var request = require("request");
+
+    var options = { method: 'POST',
+    url: 'https://api.ocr.space/parse/image',
+    headers: {'Cache-Control': 'no-cache','content-type': 'multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' },
+    formData: { apikey: '5a64d478-9c89-43d8-88e3-c65de9999580',file: { value: fs.createReadStream(filename),options: { filename: filename,contentType: null } },isCreateSearchablePdf: 'true' } };
+
+    request(options, function (error, response, body) {
+    if (error) throw new Error(error);
+
+    callback(JSON.parse(body));
+});
+
+}
+
+OCR("./data/Test.jpg",(function(data){
+    var json = data.ParsedResults;
+}));
+
