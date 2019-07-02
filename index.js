@@ -1,100 +1,97 @@
 
 const data = require('./data/data2.json');
-
-var titles = {
-"Project Name" : {
-    found : false,
-    y: 0
-},
-"Attachments" :{
-    found : false,
-    y: 0
-},
-"Approver" : {
-    found : false,
-    y: 0
-},
-"Comments" : {
-    found : false,
-    y: 0
-},
-"Projected" : {
-    found : false,
-    y: 0
-},
-"D&B" : {
-    found : false,
-    y: 0
-},
-"Workflow Approvals" : {
-    found : false,
-    y: 0
-}
-};
+const templates = require('./templates.js');
 
 
-data["text"].forEach(element => {
-    if(titles["Project Name"].found == false && element.text == "Project"){
-        titles["Project Name"].found = true;
-        titles["Project Name"].y = parseInt(element.top) - 10;
-    }
+OCR("./data/Test.jpg",(function(data){
+    var json = data.ParsedResults;
+    var end = new Date().getTime();
+    var time = end - start;
+    var m1,m2,m3,m4;
+    var BreakException = {};
 
-    if(titles["Project Name"].found  == false && titles["Attachments"].found == false && element.text == "Attachments"){
-        titles["Attachments"].found = true;
-        titles["Attachments"].y = parseInt(element.top) - 10;
-    }
 
-    if(titles["Approver"].found == false && element.text == "Approver"){
-        titles["Approver"].found = true;
-        titles["Approver"].y = parseInt(element.top) - 10;
-    }
+    json[0].TextOverlay.Lines.forEach( element =>{
 
-    if(titles["Approver"].found == false && titles["Comments"].found == false &&  element.text == "Comments"){
-        titles["Comments"].found = true;
-        titles["Comments"].y = parseInt(element.top) - 10;
-    }
-
-    if(titles["Projected"].found == false && element.text == "Projected"){
-        titles["Projected"].found = true;
-        titles["Projected"].y = parseInt(element.top) - 10;
-    }
-
-    if(titles["Projected"].found == false && titles["D&B"].found == false &&  element.text == "D&B"){
-        titles["D&B"].found = true;
-        titles["D&B"].y = parseInt(element.top) - 10;
-    }
-
-    if(titles["Workflow Approvals"].found == false && element.text == "Workflow"){
-        titles["Workflow Approvals"].found = true;
-        titles["Workflow Approvals"].y = parseInt(element.top) - 10;
-    }
-});
-
-var m1,m2,m3,m4;
-
-if(titles["Project Name"].found == true || titles["Attachments"].found == true){
-    m1 = titles["Project Name"].found == true ? titles["Project Name"].y : titles["Attachments"].y;
-    if(titles["Approver"].found == true || titles["Comments"].found == true){
-        m2 = titles["Approver"].found == true ? titles["Approver"].y : titles["Comments"].y;
-        if(titles["Projected"].found == true || titles["D&B"].found == true){
-            m3 = titles["Projected"].found == true ? titles["Projected"].y : titles["D&B"].y;
-            if(titles["Workflow Approvals"].found == true){
-                m4 = titles["Workflow Approvals"].y;
-                console.log("============ Information ============")
-                console.log("All markers have been found.\nDocument Type: Internal Execution Document");
-                console.log("First Marker Position: " + m1);
-                console.log("Second Marker Position: " + m2);
-                console.log("Third Marker Position: " + m3);
-                console.log("Fourth Marker Position: " + m4);
-                console.log("============ Information ============")
+        element.Words.forEach(word =>{
+            if(m1 == undefined && m2 == undefined && m3 == undefined && m4 == undefined){
+                if(templates.IED["Project Name"].found == false && word.WordText == "Project"){
+                    templates.IED["Project Name"].found = true;
+                    templates.IED["Project Name"].y = parseInt(word.Top) - 10;
+                }
+            
+                if(templates.IED["Project Name"].found  == false && templates.IED["Attachments"].found == false && word.WordText == "Attachments"){
+                    templates.IED["Attachments"].found = true;
+                    templates.IED["Attachments"].y = parseInt(word.Top) - 10;
+                }
+            
+                if(templates.IED["Approver"].found == false && word.WordText == "Approver"){
+                    templates.IED["Approver"].found = true;
+                    templates.IED["Approver"].y = parseInt(word.Top) - 10;
+                }
+            
+                if(templates.IED["Approver"].found == false && templates.IED["Comments"].found == false &&  word.WordText == "Comments"){
+                    templates.IED["Comments"].found = true;
+                    templates.IED["Comments"].y = parseInt(word.Top) - 10;
+                }
+            
+                if(templates.IED["Projected"].found == false && word.WordText == "Projected"){
+                    templates.IED["Projected"].found = true;
+                    templates.IED["Projected"].y = parseInt(word.Top) - 10;
+                }
+            
+                if(templates.IED["Projected"].found == false && templates.IED["D&B"].found == false &&  word.WordText == "D&B"){
+                    templates.IED["D&B"].found = true;
+                    templates.IED["D&B"].y = parseInt(word.Top) - 10;
+                }
+            
+                if(templates.IED["Workflow Approvals"].found == false && word.WordText == "Workflow"){
+                    templates.IED["Workflow Approvals"].found = true;
+                    templates.IED["Workflow Approvals"].y = parseInt(word.Top) - 10;
+                }
             }
 
+        })
+
+    });
+
+
+
+    if(templates.IED["Project Name"].found == true || templates.IED["Attachments"].found == true){
+        
+        m1 = templates.IED["Project Name"].found == true ? templates.IED["Project Name"].y : templates.IED["Attachments"].y;
+        console.log("Setting Position : "  + m1);
+        if(templates.IED["Approver"].found == true || templates.IED["Comments"].found == true){
+            m2 = templates.IED["Approver"].found == true ? templates.IED["Approver"].y : templates.IED["Comments"].y;
+            console.log("Setting Position : "  + m2);
+            if(templates.IED["Projected"].found == true || templates.IED["D&B"].found == true){
+                m3 = templates.IED["Projected"].found == true ? templates.IED["Projected"].y : templates.IED["D&B"].y;
+                console.log("Setting Position : "  + m3);
+                if(templates.IED["Workflow Approvals"].found == true){
+                    m4 = templates.IED["Workflow Approvals"].y;
+                    console.log("Setting Position : "  + m4);
+                    console.log("============ Information ============")
+                    console.log("All markers have been found.\nDocument Type: Internal Execution Document");
+                    console.log("First Marker Position: " + m1);
+                    console.log("Second Marker Position: " + m2);
+                    console.log("Third Marker Position: " + m3);
+                    console.log("Fourth Marker Position: " + m4);
+                    console.log("============ Information ============")
+                }
+
+            }
         }
     }
-}
+    console.log("Document Took " + (time / 1000) + " seconds to OCR And Split document.")
+}));
 
 
+
+
+
+var start;
 function OCR(filename,callback){
+    start = new Date().getTime();
     var fs = require("fs");
     var request = require("request");
 
@@ -110,8 +107,3 @@ function OCR(filename,callback){
 });
 
 }
-
-OCR("./data/Test.jpg",(function(data){
-    var json = data.ParsedResults;
-}));
-
